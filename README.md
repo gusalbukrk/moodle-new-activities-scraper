@@ -1,6 +1,6 @@
 # Moodle New Activities Scraper
 
-This script is designed to scrape the Moodle for new activities and send an email with the details for each activity found. To run it, create a `.env` file with valid credentials (see example below) and execute `node script.js`.
+This script is designed to scrape the Moodle for new activities and send an email with the details for each activity found. To run it, create a `.env` file with valid credentials (see example below) and execute `node .`.
 
 ```env
 MOODLE_USERNAME=user
