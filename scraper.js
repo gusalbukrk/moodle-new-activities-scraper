@@ -5,7 +5,7 @@ const { MOODLE_USERNAME, MOODLE_PASSWORD } = process.env;
 
 // scrape from Moodle activities not marked as done
 async function scraper() {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'], });
 
   const page = (await browser.pages())[0];
 

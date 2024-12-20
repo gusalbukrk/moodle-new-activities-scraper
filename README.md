@@ -9,4 +9,4 @@ SMTP2GO_USERNAME=user
 SMTP2GO_PASSWORD=pass
 ```
 
-To run the script periodically, create a cron job. For example, `0 * * * * cd ~/moodle-new-activities-scraper/ && node .` will run the script every hour.
+To run the script periodically, create a cron job (`crontab -e`). For example, `0 * * * * cd ~/moodle-new-activities-scraper/ && node .` will run the script every hour.
